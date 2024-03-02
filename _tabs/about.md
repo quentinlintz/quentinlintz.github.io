@@ -25,6 +25,10 @@ Similarly, all knowledge is contextual. I write these articles not as fragmented
 
 ## Who is Quentin Lintz?
 
+<a href="https://www.linkedin.com/in/quentinlintz/">
+  <img src="https://github.com/quentinlintz.png" alt="Portrait" width="300"/>
+</a>
+
 👋 I'm the author of this blog. Here are a few facts about me:
 
 - Computer Engineering grad from Purdue Fort Wayne (2019)
