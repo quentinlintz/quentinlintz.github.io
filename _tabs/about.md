@@ -34,3 +34,5 @@ Similarly, all knowledge is contextual. I write these articles not as fragmented
 - Can't go to sleep without reading at least a few pages of a book
 - Always planning my next Disney World trip with my wife
 - Father to the most precious angel baby
+
+If you want to meet me, pick a time on my [Calendly booking page](https://calendly.com/quentinlintz/universal-set-meeting)!

@@ -2,15 +2,15 @@
 title: Text Classification and Bayes' Theorem
 date: 2024-03-05 19:00:00 -0500
 math: true
-categories: ["mathematics", "machine learning", "data science"]
+image:
+  path: https://utfs.io/f/b916ccdc-ab5c-4585-9ae5-63520883cf26-ffylnw.png
+categories: ["machine learning"]
 tags: ["probability theory", "natural language processing", "bayes theorem"]
 ---
 
-## Probability Theory
-
 Some evenings, you will find me engaged in a fierce, albeit friendly, competition [Six Card Golf](https://bicyclecards.com/how-to-play/six-card-golf) with my family. Admittedly, repetitive play has dulled the excitement over the past several months. My favorite part is anticipating an opponent becoming distracted and giving up a card that completes a competitor's row!
 
-### Six Card Golf
+## Six Card Golf
 
 Golf is about conditional probability. Players start with their cards face down and have to make a choice each turn: reveal a card, swap with a known deck card, or swap with an unknown deck card. The trick is knowing what your opponents have already revealed because the goal of the game is to match rows by rank to cancel them out. Just like golf, each unmatched card per row adds up at the end. The person with the biggest score after 9 "holes" is known as the "goat" (not to be mistaken with the "G.O.A.T.").
 
@@ -32,13 +32,13 @@ $$
 
 The last bullet is found by considering how we could choose three cards from the deck ${108 \choose 3}$, how many ways we could draw three cards of the same rank ${8 \choose 3}$ for any of the 13 different ranks, and finally dividing.
 
-### Decision-making
+## Decision-making
 
 We've determined the chances associated with the initial six face-down cards you're dealt with and the chances of drawing a favorable card, but as the game progresses, your strategy may change. If you have a row of two fives and hope to eventually draw one more, the cards your opponents have revealed mean a great deal (no pun intended). For instance, if my grandma has two fives and my sister has two, my chances of drawing a five are greatly diminished. Two more fives would be left in the deck or among your remaining face-down cards.
 
 The probabilities we calculated earlier based on the chances of a particular card appearing is known as _a priori_ knowledge. Knowing my grandma and sister have each two fives revealed midway through the game is known as _a posteriori_ knowledge.
 
-### The Law of Total Probability
+## The Law of Total Probability
 
 If you know why I named my blog "Universal Set" you may already understand it's a reference to set theory. If not, you should read my <a href="{{ site.baseurl }}/about/">about page</a>. I want to first introduce the concept of a partition. A partition of a set is a collection of non-empty subsets $(i)$ that are mutually exclusive $(ii)$ and collectively exhaustive $(iii)$. {% cite goldberg1987probability %}
 
@@ -78,7 +78,7 @@ P(E) &= \frac{416}{2889} \approx 14.4\%
 \end{align*}
 $$
 
-### Bayes' Theorem
+## Bayes' Theorem
 
 Since we now understand the law of total probability, let's turn to Bayes's Theorem. 
 
@@ -92,11 +92,9 @@ $$
 
 This can be applied to sequential events where additional information later acquired impacts the initial probability. Remember, Bayes' Theorem is only applicable if $\set{E_1, E_2, \ldots, E_n}$ is a partition of the sample space for the experiment.
 
-## Naïve Bayes Classifier
+## Naïve Bayes Algorithm
 
 The process of deriving useful information from a raw text string is known as Natural Language Processing (NLP). The Naïve Bayes algorithm is based on Bayes' Theorem and is particularly optimized for count vectorization for text data.
-
-### Forming the Algorithm
 
 Let's start with a problem I think is fascinating and worth solving: how can we determine if a text string is a suggestion? Consider we have a list of a hundred various text strings with labels:
 
@@ -134,7 +132,7 @@ $$
 
 The "naïve" here refers to the assumption that feature pairs are mutually independent. Linguistically, words are _dependent_ when used in a comprehensible sentence, but this assumption performs well when we treat language as a simple bag of words!
 
-### Training a Classifier
+## Training a Classifier
 
 This small project aims to successfully classify an arbitrary string as "suggestion" or "non-suggestion" via supervised learning. To kick off this project, I will use a unique method of obtaining fake labeled data by running my [synthetic-data-generator](https://github.com/quentinlintz/synthetic-data-generator) script from an earlier project, which will call the OpenAI API, and create 100 labeled rows of suggestions and non-suggestions. Clone my [notebooks repo](https://github.com/quentinlintz/notebooks/blob/main/naive-bayes-classifier.ipynb) if you wish to follow along!
 
@@ -161,7 +159,7 @@ freq = zip(count_vect.get_feature_names_out(), matrix.sum(axis=0).tolist()[0])
 sorted(freq, key=lambda x: -x[1])[:3]
 ```
 
-The top three most frequent words are what you may expect given suggestions imply _change_:
+The top three most frequent words are what you may expect given suggestions imply change.
 
 ```
 [('consider', 10), ('new', 9), ('different', 6)]
