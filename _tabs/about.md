@@ -7,11 +7,7 @@ order: 4
 
 ## What is Universal Set?
 
-In set theory, the set of all elements under consideration for a particular problem is denoted by
-
-$$
-\mathbb{U}
-$$
+In set theory, the set of all elements under consideration for a particular problem is denoted by $ \mathbb{U} $.
 
 The _universal set_ acts as context and encompasses every set that can be formed from its elements. 
 
@@ -31,9 +27,10 @@ Similarly, all knowledge is contextual. I write these articles not as fragmented
 
 👋 I'm the author of this blog. Here are a few facts about me:
 
-- Computer Engineering grad from Purdue Fort Wayne (2019)
+- Computer Engineering grad from Purdue Fort Wayne
 - Software Engineer with experience from various B2B SaaS companies
 - Fitness enthusiast focusing on strength training and HIIT
 - Owner of three cute, but mischievous, cats
 - Can't go to sleep without reading at least a few pages of a book
 - Always planning my next Disney World trip with my wife
+- Father to the most precious angel baby

@@ -80,7 +80,7 @@ avatar: https://utfs.io/f/78fc3cac-44fb-45eb-9859-83dc5e04ee17-c8prz4.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: https://utfs.io/f/78fc3cac-44fb-45eb-9859-83dc5e04ee17-c8prz4.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
