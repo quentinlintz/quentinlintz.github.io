@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 math: true
-order: 4
+order: 1
 ---
 
 ## What is Universal Set?
