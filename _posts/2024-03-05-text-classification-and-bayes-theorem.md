@@ -3,7 +3,7 @@ title: Text Classification and Bayes' Theorem
 date: 2024-03-05 19:00:00 -0500
 math: true
 image:
-  path: https://utfs.io/f/b916ccdc-ab5c-4585-9ae5-63520883cf26-ffylnw.png
+  path: https://utfs.io/f/f9a1f6ac-0b1a-42f3-b540-a9e953e40a7a-9kteu.png
 categories: ["machine learning"]
 tags: ["probability theory", "natural language processing", "bayes theorem"]
 ---
