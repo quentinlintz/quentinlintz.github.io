@@ -7,7 +7,7 @@ categories: ["development"]
 tags: ["golang", "github", "developer experience"]
 ---
 
-Working exclusively in the terminal has always been a flex. I think it demonstrates understanding of how linux works if you're using `ps`, or understanding networking if you're using `netstat`, or understanding filesystem search with `grep` and some esoteric pattern you totally _did not_ ask ChatGPT to generate for you. I've also been "bitten by the bug" over the past few months to the point where I'm writing this post in Neovim with no spelcheck. In fact, my entire motivation for learning Go was to create a command line tool no matter how trivial.
+Working exclusively in the terminal has always been a flex. I think it demonstrates understanding of how linux works if you're using `ps`, or understanding networking if you're using `netstat`, or understanding filesystem search with `grep` and some esoteric pattern you totally _did not_ ask ChatGPT to generate for you. I've also been "bitten by the bug" over the past few months to the point where I'm writing this post in Neovim with no spelcheck[^0]. In fact, my entire motivation for learning Go was to create a command line tool no matter how trivial.
 
 ## A Bit about Go
 
@@ -64,7 +64,7 @@ I wanted to make an initial version of this file, but as it _may be_ useful to o
 
 ## What makes a project inviting?
 
-If you've worked on a software project before, I'm certain you've noticed what makes a project enjoyable to work on. It's easy to write off these points as _minutiae_, but I think it makes projects stand out and is condusive to community growth[^0].
+If you've worked on a software project before, I'm certain you've noticed what makes a project enjoyable to work on. It's easy to write off these points as _minutiae_, but I think it makes projects stand out and is conducive to community growth[^1].
 
 ### Documentation and Information
 
@@ -154,5 +154,6 @@ Considering what makes a project interesting and inviting to other developers ha
 
 ## Footnotes
 
-[^0]: My project has only 2 other contributors, I might just be scratching the surface here
+[^0]: Just learned about `:set spell` in Vim 😂
+[^1]: My project has only 2 other contributors, I might just be scratching the surface here
 
