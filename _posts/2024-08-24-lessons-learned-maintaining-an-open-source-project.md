@@ -33,7 +33,7 @@ Anyway, back to cmdtop. Imagine printing what commands you've been using (like I
 
 `cmdtop` will print a list of your most used commands from your shell history. It's built using _only_ Go's standard library. There are ~3 main shells that store command history differently, so this was a challenge with decent scope but still achievable. Oh, star this on GitHub before you forget...
 
-<center><a href="https://github.com/quentinlintz/cmdtop"><img src="https://gh-card.dev/repos/quentinlintz/cmdtop.svg"></a></center>
+<center><a href="https://github.com/quentinlintz/cmdtop"><img src="https://gh-card.dev/repos/quentinlintz/cmdtop.svg" alt="cmdtop GitHub repo card"></a></center>
 
 Here's an example I just ran:
 
